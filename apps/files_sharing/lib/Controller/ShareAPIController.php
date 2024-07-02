@@ -512,7 +512,7 @@ class ShareAPIController extends OCSController {
 	 * @param string $publicUpload If public uploading is allowed
 	 * @param string $password Password for the share
 	 * @param string|null $sendPasswordByTalk Send the password for the share over Talk
-	 * @param ?string $expireDate The expiry date of the share in the user's timezone (UTC) at 00:00.
+	 * @param ?string $expireDate The expiry date of the share in the user's timezone at 00:00.
 	 *                If $expireDate is not supplied or set to `null`, the system default will be used.
 	 * @param string $note Note for the share
 	 * @param string $label Label for the share (only used in link and email)
@@ -1614,9 +1614,6 @@ class ShareAPIController extends OCSController {
 		} catch (\Exception $e) {
 			throw new \Exception('Invalid date. Format must be YYYY-MM-DD');
 		}
-
-		// Use server timezone to store the date
-		$date->setTimezone(new \DateTimeZone(date_default_timezone_get()));
 
 		return $date;
 	}

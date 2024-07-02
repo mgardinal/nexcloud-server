@@ -13,6 +13,7 @@ SPDX-FileCopyrightText: jden <jason@denizac.org>
 SPDX-FileCopyrightText: inherits developers
 SPDX-FileCopyrightText: escape-html developers
 SPDX-FileCopyrightText: defunctzombie
+SPDX-FileCopyrightText: debounce developers
 SPDX-FileCopyrightText: atomiks
 SPDX-FileCopyrightText: assert developers
 SPDX-FileCopyrightText: Varun A P
@@ -96,7 +97,7 @@ This file is generated from multiple sources. Included packages:
 	- version: 3.3.1
 	- license: GPL-3.0-or-later
 - @nextcloud/initial-state
-	- version: 2.1.0
+	- version: 2.2.0
 	- license: GPL-3.0-or-later
 - @nextcloud/router
 	- version: 2.2.0
@@ -109,6 +110,9 @@ This file is generated from multiple sources. Included packages:
 	- license: GPL-3.0-or-later
 - @nextcloud/router
 	- version: 3.0.1
+	- license: GPL-3.0-or-later
+- @nextcloud/sharing
+	- version: 0.1.0
 	- license: GPL-3.0-or-later
 - @nextcloud/vue-select
 	- version: 3.25.0
@@ -126,13 +130,13 @@ This file is generated from multiple sources. Included packages:
 	- version: 8.11.2
 	- license: AGPL-3.0-or-later
 - @vueuse/components
-	- version: 10.9.0
+	- version: 10.11.0
 	- license: MIT
 - @vueuse/core
-	- version: 10.9.0
+	- version: 10.11.0
 	- license: MIT
 - @vueuse/shared
-	- version: 10.9.0
+	- version: 10.11.0
 	- license: MIT
 - assert
 	- version: 2.1.0
@@ -141,7 +145,7 @@ This file is generated from multiple sources. Included packages:
 	- version: 1.0.7
 	- license: MIT
 - axios
-	- version: 1.6.8
+	- version: 1.7.2
 	- license: MIT
 - balanced-match
 	- version: 1.0.2
@@ -178,6 +182,9 @@ This file is generated from multiple sources. Included packages:
 	- license: BSD-3-Clause
 - css-loader
 	- version: 6.10.0
+	- license: MIT
+- debounce
+	- version: 2.1.0
 	- license: MIT
 - define-data-property
 	- version: 1.1.4
